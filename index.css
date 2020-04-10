@@ -1,0 +1,94 @@
+body{
+    width: 100%;
+}
+
+/* NAVMENU */
+
+.navMenu {
+    /* height: 100px; */
+    background-color: aqua;
+    transition: 0.4s; /* Adds a transition effect when the padding is decreased */
+  position: fixed;  
+  width: 100%;
+  top: 0;  
+  z-index: 99;
+  overflow: hidden;
+
+}
+
+/* NAVMENU ENDS */
+
+
+  /* HOME PAGE IMAGE START */
+
+
+.homePageImage {
+  position: relative;
+  animation: myfirst 30s linear 2s infinite alternate;
+  height: 500px;
+  /* background-color: rgba(0, 252, 231, 0.651); */
+  background-image: url("https://images.unsplash.com/photo-1530031665520-57dab9ab1ec9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60");
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-animation: myfirst 30s linear 2s infinite alternate;
+}
+
+@keyframes myfirst {
+    0%   {
+        background-image: url("https://images.unsplash.com/photo-1530031665520-57dab9ab1ec9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60");
+
+        /* background-color:rgba(45, 146, 138, 0.651); */
+    }
+    25%  {background-image: url("https://images.unsplash.com/photo-1558021211-6d1403321394?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60");}
+    50%  {background-image: url(https://images.unsplash.com/photo-1524758870432-af57e54afa26?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60);}
+    75%  {background-image: url("https://images.unsplash.com/photo-1554415707-6e8cfc93fe23?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60");}
+    100% {
+        /* background-color:rgba(0, 252, 231, 0.651); */
+        background-image: url("https://images.unsplash.com/photo-1530031665520-57dab9ab1ec9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=60");
+
+    
+    }
+  }
+  .textContain {
+      padding-top: 100px;
+      text-align: center;
+      color: silver;
+      font-weight: bolder;
+  }
+    /* HOME PAGE IMAGE ENDS */
+
+    /* WHY CHOOSE US START */
+
+  .whyUsText {
+      padding-bottom: 30px;
+      padding-top: 30px;
+      background-color: red;
+      /* height: 300px; */
+      text-align: center;
+      color: silver;
+  }
+
+  .whyUsImg {
+      width: 450px;
+      height: 250px;
+      box-shadow: 0px 10px 13px -7px #000000c2;
+      border-radius: 50%;
+      -webkit-border-radius: 50%;
+      -moz-border-radius: 50%;
+      -ms-border-radius: 50%;
+      -o-border-radius: 50%;
+}
+/* WHY CHOOSE US ENDS */
+
+/* COMPANY PROFILE START */
+.companyProfileImg {
+    background-color: aqua;
+    /* background-image: url("https://images.unsplash.com/photo-1507306989963-f618e20a4237?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=400&q=6"); */
+    height: 400px;
+    /* position: fixed; */
+}
+
+ 
+fieldset {margin:0;padding:0;border:solid;}
+
+/* COMPANY PROFILE ENDS */
